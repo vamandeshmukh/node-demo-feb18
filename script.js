@@ -26,3 +26,8 @@ app.get('/contact', (req, res) => {
     res.send(`Welcome to contact page.`);
     console.log(`contact`);
 });
+
+const addNums = (num1, num2) => {
+    return num1 + num2;
+
+}
